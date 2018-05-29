@@ -78,7 +78,7 @@
                             .then( (response) => {
                                 vm.request_pending = false;
 
-                                vm.showAlert('Form was submitted successfully!', 'success');
+                                vm.showAlert('Form was successfully submitted!', 'success');
                                 vm.clearForm();
                             })
                             .catch( (error) => {
